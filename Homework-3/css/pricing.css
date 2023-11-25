@@ -1,0 +1,52 @@
+.pricing {
+    background-color: #F5F5F5;;
+    padding: 80px 0;
+}
+.card-pricing {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.list {
+    padding: auto;
+}
+.list-item {
+    width: 340px;
+}
+.list-item_tariff {
+    background-color: #333;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 2px;
+}
+.list-item_cost {
+    background-color: #333;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 2px;
+}
+.list-item_duration {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.50);       
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 2px;
+}
+.list-item_quantity {
+    background-color: #FFF;
+    color: #86878B;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 2px;
+}
