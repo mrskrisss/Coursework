@@ -1,6 +1,8 @@
 @import url(./fonts.css);
 @import url(./awesome.css);
 @import url(./pricing.css);
+@import url(./header.css);
+@import url(./axure.css);
 
 * {
     margin: 0;
@@ -20,25 +22,28 @@ html {
 .heading {
   margin-bottom: 65px;
 }
-.title {
-  color:#212121;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 400;
-  font-family: "Raleway";
-  text-transform: uppercase;
-  }
-  .heading span {
+  .title {
+    color:#212121;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-transform: uppercase;
+}
+.description {
+    color: #86878B;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 14px 19px 0;
+}
+.heading span {
     display: block;
     width: 64px;
     height: 2px;
     background-color: #E72424;
     margin: 34px auto 34px;
   }
-  .description {
-    color: #86878B;
-    text-align: center;
-    font-size: 14px;
-    margin: 0 14px 19px 0;
-  }
+  
+  
   
