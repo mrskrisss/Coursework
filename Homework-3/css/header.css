@@ -1,6 +1,6 @@
 .header {
     background-color: #000;
-    padding: 20px 110px 19px 108px;
+    padding: 20px 0;
 }
 .header-wrap {
     display: flex;
@@ -24,7 +24,11 @@
     margin-left: 48px;
 }
 .navigation-list__item a {
-    color: rgba(255, 255, 255, 0.70);;
+    color: rgba(255, 255, 255, 0.70);
     text-transform: capitalize;
     font-size: 15px;
+}
+.navigation-list__item a:hover {
+    border-bottom: 2px solid #EC7979;
+    padding-bottom: 5px;
 }

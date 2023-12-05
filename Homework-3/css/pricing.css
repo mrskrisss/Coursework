@@ -6,12 +6,17 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin: 0 -15px;
 }
 .list {
     padding: auto;
+    margin: 0 15px;
 }
 .list-item {
     width: 340px;
+}
+.list-item_quantity:last-child {
+    margin-bottom: 0;
 }
 .list-item_tariff {
     background-color: #333;
