@@ -4,6 +4,9 @@
 @import url(./header.css);
 @import url(./axure.css);
 @import url(./customers.css);
+@import url(./cdn.css);
+@import url(./social.css);
+@import url(./footer.css);
 
 * {
     margin: 0;

@@ -10,19 +10,56 @@
     width: 350px;
     margin: 0 15px;
   }
-  .awesome-card_img {
+  .awesome-card-circle_keyboard {
     width: 70px;
     height: 70px;
     border: 1px solid #E72424;
     border-radius: 50%;
     margin: 0 auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .awesome-card_img img {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    object-fit: none;
-    object-position: center;
+  .awesome-card-circle_keyboard:after {
+    content: "\f11c";
+    font-size: 30px;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #EC7979;
+  }
+  .awesome-card-circle_lightbulb {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .awesome-card-circle_lightbulb:after {
+    content: "\f0eb";
+    font-size: 30px;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #EC7979;
+  }
+  .awesome-card-circle_bolt-lightning {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .awesome-card-circle_bolt-lightning:after {
+    content: "\e0b7";
+    font-size: 30px;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #EC7979;
   }
   .awesome-card_title {
     color: #333;
