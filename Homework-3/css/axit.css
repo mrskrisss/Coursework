@@ -1,0 +1,84 @@
+.axit {
+    padding: 57px 0;
+    background-image: url("../img/background\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.axit:after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+	height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: -1;
+}
+.axit-information {
+    width: 544px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.logo_axit {
+    font-family: Raleway;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 400;
+    margin-bottom: 42px;
+}
+.logo_axit span {
+    color: #EC7979;
+}
+.axit-title {
+    color:#FFF;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-transform: uppercase;
+}
+.axit-title:after {
+    content: "";
+    width: 64px;
+    height: 2px;
+    background-color: #FFF;
+    margin: 32px 0  39px;
+    display: block;
+  }
+.axit-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 39px;
+}
+.button_wrap {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: rgba(196, 196, 196, 0.00);
+}
+.button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 135px;
+    height: 42px;
+    flex-shrink: 0;
+} 
+.button_link {
+    border: 1px solid white;
+    padding: 11px 26px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}.button_link:hover {
+    background-color: #EC7979;
+    width: 135px;
+    height: 42px;
+} 
