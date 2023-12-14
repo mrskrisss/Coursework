@@ -29,6 +29,24 @@
     font-weight: 400;
     margin-bottom: 15px;
 }
-.footer-icons-list a :hover{
-    color: #EC7979;
+.fa-facebook-f:hover {
+    color:rgb(65, 7, 189);
+}
+.fa-twitter:hover {
+    color:rgb(18, 96, 136);
+}
+.fa-google:hover {
+    color:rgb(219, 74, 57);
+}
+.fa-pinterest:hover {
+    color:red;
+}
+.fa-instagram:hover{
+    color:rgb(131, 58, 180);
+}
+.fa-linkedin:hover {
+    color: rgb(42, 71, 168);
+} 
+.fa-wifi:hover {
+    color:rgb(42, 8, 237);
 }

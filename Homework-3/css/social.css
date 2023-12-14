@@ -35,13 +35,37 @@
     justify-content: space-between;
     align-items: center;
 }
-.social-list-icon a {
+.social_list_icon {
     font-size: 42px;
-    color: rgb(134, 135, 139,0.30);
     cursor: pointer;
 }
-.social-list-icon a :hover {
-    color: #EC7979;
-    transform: rotate(360deg) scale(1.2);
-    transition: 1.2s;
+.icon-link {
+    color: rgb(134, 135, 139,0.30);
+}
+.list_icon {
+    transition: 0.5s;
+}
+.list_icon:hover {
+    transform: rotate(360deg) scale(1.2)
+}
+.fa-facebook-f:hover {
+    color:rgb(65, 7, 189);
+}
+.fa-twitter:hover {
+    color:rgb(18, 96, 136);
+}
+.fa-google:hover {
+    color:rgb(219, 74, 57);
+}
+.fa-pinterest:hover {
+    color:red;
+}
+.fa-instagram:hover{
+    color:rgb(131, 58, 180);
+}
+.fa-linkedin:hover {
+    color: rgb(42, 71, 168);
+} 
+.fa-wifi:hover {
+    color:rgb(42, 8, 237);
 }
