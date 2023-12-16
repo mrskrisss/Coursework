@@ -89,12 +89,17 @@
     width: 135px;
     height: 42px;
 } 
-.content {
+.card-free_trial {
     width: 370px;
-    border-radius: 8px 8px 0 0;
+    border-radius: 8px;
     background-color: #FFF;
-    padding: 18px 59px 61px 59px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     overflow: hidden;
+}
+.content {
+    padding: 18px 59px 0 59px;
 }
 .content h3 {
     color: #333;
@@ -105,6 +110,9 @@
 }
 .content span {
     color: #EC7979;
+}
+.card-items {
+    margin-bottom: -19px;
 }
 .item {
     display: flex;
@@ -138,9 +146,8 @@
     color: #FFF;
     text-align: center;
     font-family: Open Sans;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
-    border-radius: 0px 0px 8px 8px;
     background: #EC7979;
     border: 0;
     cursor: pointer; 
