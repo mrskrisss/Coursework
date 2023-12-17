@@ -13,7 +13,7 @@
 }
 .title-social {
     color: #333;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     margin-bottom: 14px;
 }
@@ -22,7 +22,7 @@
 }
 .description-social p {
     color: #86878B;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
 }
 .social-icons {
@@ -36,7 +36,7 @@
     align-items: center;
 }
 .social_list_icon {
-    font-size: 42px;
+    font-size: 2.625rem;
     cursor: pointer;
 }
 .icon-link {
@@ -69,3 +69,41 @@
 .fa-wifi:hover {
     color:rgb(42, 8, 237);
 }
+@media (max-width: 1200px) {
+    html {
+      font-size: 14px;
+    }
+    .container {
+      max-width: 970px;
+    }
+    .social-wrap{
+        flex-direction: column;
+        text-align: center;
+    }
+  }
+  @media (max-width: 992px) {
+    html {
+      font-size: 12px;
+    }
+    .container {
+      max-width: 750px;
+    }
+  }
+  @media (max-width: 767px) {
+    html {
+      font-size: 10px;
+    }
+    .container {
+      width: 100%;
+    }
+    .social-list {justify-content: center;
+    }
+  }
+  @media (max-width: 566px) {
+    html {
+      font-size: 13px;
+    }
+    
+  }
+  @media (max-width: 320px) {
+  }

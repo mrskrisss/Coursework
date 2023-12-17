@@ -10,7 +10,6 @@
 @import url(./axit.css);
 @import url(./contact.css);
 @import url(./tabs.css);
-
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +19,7 @@
 }
 html {
   font-family: "Open Sans", "Raleway", sans-serif;
+  font-size: 16px;
 }
 .conteiner {
     max-width: 1170px;
@@ -32,7 +32,7 @@ html {
   .title {
     color:#212121;
     text-align: center;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 400;
     font-family: "Raleway";
     text-transform: uppercase;
@@ -40,7 +40,7 @@ html {
 .description {
     color: #86878B;
     text-align: center;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     margin: 0 14px 19px 0;
 }
@@ -52,7 +52,37 @@ html {
   margin: 34px auto 34px;
   display: block;
 }
-
+@media (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 10px;
+  }
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 566px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media (max-width: 320px) {
+}
 
   
   

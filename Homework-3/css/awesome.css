@@ -22,7 +22,7 @@
   }
   .awesome-card-circle_keyboard:after {
     content: "\f11c";
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     color: #EC7979;
@@ -39,7 +39,7 @@
   }
   .awesome-card-circle_lightbulb:after {
     content: "\f0eb";
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     color: #EC7979;
@@ -56,22 +56,55 @@
   }
   .awesome-card-circle_bolt-lightning:after {
     content: "\e0b7";
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     color: #EC7979;
   }
   .awesome-card_title {
     color: #333;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 16px;
   }
   .awesome-card_text p {
     color: #000;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: center;
   }
-
-  
+  @media (max-width: 1200px) {
+    html {
+      font-size: 14px;
+    }
+    .container {
+      max-width: 970px;
+    }
+  }
+  @media (max-width: 992px) {
+    html {
+      font-size: 12px;
+    }
+    .container {
+      max-width: 750px;
+    }
+  }
+  @media (max-width: 767px) {
+    html {
+      font-size: 10px;
+    }
+    .container {
+      width: 100%;
+    }
+  }
+  @media (max-width: 566px) {
+    html {
+      font-size: 13px;
+    }
+    .awesome-wrap {
+    flex-direction: column;
+    align-items: center;
+    }
+  }
+  @media (max-width: 320px) {
+  }

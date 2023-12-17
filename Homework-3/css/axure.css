@@ -21,7 +21,7 @@
 .axura-title {
     color:#FFF;
     text-align: center;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 400;
     font-family: "Raleway";
     text-transform: uppercase;
@@ -38,7 +38,7 @@
     color: rgba(255, 255, 255, 0.80);
     text-align: center;
     font-family: Raleway;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
     margin: 0 16px 19px 0;
 }
@@ -61,9 +61,40 @@
     padding: 11px 26px;
     color: white;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }.button_link:hover {
     background-color: #EC7979;
     width: 135px;
     height: 42px;
 } 
+@media (max-width: 1200px) {
+    html {
+      font-size: 14px;
+    }
+    .container {
+      max-width: 970px;
+    }
+  }
+  @media (max-width: 992px) {
+    html {
+      font-size: 12px;
+    }
+    .container {
+      max-width: 750px;
+    }
+  }
+  @media (max-width: 767px) {
+    html {
+      font-size: 10px;
+    }
+    .container {
+      width: 100%;
+    }
+  }
+  @media (max-width: 566px) {
+    html {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 320px) {
+  }

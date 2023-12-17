@@ -7,6 +7,7 @@
     justify-content: space-between;
     padding: 20px;
     margin: 0 -15px;
+    flex-wrap: wrap;
 }
 .list {
     padding: auto;
@@ -62,3 +63,37 @@
     line-height: 40px;
     margin-bottom: 2px;
 }
+@media (max-width: 1200px) {
+    html {
+      font-size: 14px;
+    }
+    .container {
+      max-width: 970px;
+    }
+    .card-pricing {
+        justify-content: center;
+    }
+  }
+  @media (max-width: 992px) {
+    html {
+      font-size: 12px;
+    }
+    .container {
+      max-width: 750px;
+    }
+  }
+  @media (max-width: 767px) {
+    html {
+      font-size: 10px;
+    }
+    .container {
+      width: 100%;
+    }
+  }
+  @media (max-width: 566px) {
+    html {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 320px) {
+  }
