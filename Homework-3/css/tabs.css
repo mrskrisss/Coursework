@@ -9,15 +9,15 @@
     margin: 0 -15px;
 }
 .tabs-header {
-    width: 112px;
+    width: 7rem;
     margin: 0 15px;
 }
 .tabs-header button:last-child {
   margin-bottom: -10px;
 }
 .tabs-header button {
-    width: 112px;
-    height: 110px;
+    width: 7rem;
+    height: 6.875rem;
     border-radius: 4px;
     background: #333;
     margin-bottom: 10px;
@@ -35,31 +35,31 @@
     cursor: pointer;
 }
 .tabs-content {
-    width: 972px;
+    width: 60.75rem;
     margin: 0 15px;
 }
 .tabs-content-item_1 {
-    height: 350px;
+    height: 21.875rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .tabs-content-item_2 {
-    height: 350px;
+    height: 21.875rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     display: none;
 }
 .tabs-content-item_3 {
-    height: 350px;
+    height: 21.875rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     display: none;
 }
 .information {
-    width: 572px;
+    width: 35.75rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
