@@ -1,0 +1,43 @@
+@mixin h1 {
+    color: $title;
+    font-family: Raleway;
+    font-size: $_64px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+@mixin h2 {
+    color: $title;
+    font-family: Raleway;
+    font-size: $_36px;
+    font-weight: 700;
+    line-height: normal;
+}
+@mixin h3 {
+    color: $title;
+    font-family: Raleway;
+    font-size: $_30px;
+    font-weight: 700;
+    line-height: normal;
+}
+@mixin h4 {
+    color: $title;
+    font-family: Raleway;
+    font-size: $_24px;
+    font-weight: 900;
+    line-height: normal;
+}
+@mixin h5 {
+    color: $title;
+    font-family: Raleway;
+    font-size: $_18px;
+    font-weight: 400;
+    line-height: normal;
+}
+@mixin h6 {
+    color: $title;
+    font-family: Raleway;
+    font-size: $_13px;
+    font-weight: 700;
+    line-height: normal;
+}
