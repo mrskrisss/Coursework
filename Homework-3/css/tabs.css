@@ -10,7 +10,10 @@
 }
 .tabs-header {
     width: 112px;
-    margin-bottom: -10px;
+    margin: 0 15px;
+}
+.tabs-header button:last-child {
+  margin-bottom: -10px;
 }
 .tabs-header button {
     width: 112px;
@@ -24,6 +27,7 @@
     font-size: 0.9375rem;
     font-weight: 700;
     text-transform: uppercase;
+
 }
 .tabs-header button:hover {
     background: #EC7979;
@@ -32,6 +36,7 @@
 }
 .tabs-content {
     width: 972px;
+    margin: 0 15px;
 }
 .tabs-content-item_1 {
     height: 350px;
@@ -62,18 +67,19 @@
 .information h2 {
     color: #000;
     font-family: Open Sans;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     text-transform: uppercase;
 }
 .information-text {
-    color: #86878B;
-    font-family: Open Sans;
-    font-size: 1.25rem;
-    font-weight: 400;
-    text-transform: uppercase;
+  margin-bottom: 20px;
 }
 .information-text p {
+    color: #86878B;
+    font-family: Open Sans;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
     margin-bottom: 20px;
 }
 .information-button_wrap{
@@ -92,10 +98,16 @@
     font-size: 0.9375rem;
     font-weight: 600;
 }
+.tabs-content-img {
+  width: 20rem;
+  height: 15.8125rem;
+}
 .tabs-content-img img {
     display: block;
     max-width: 100%;
     max-height: 100%;
+    object-fit: none;
+    object-position: center;
 }
 @media (max-width: 1200px) {
     html {

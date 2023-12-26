@@ -56,7 +56,7 @@
     margin: 32px 0  39px;
     display: block;
   }
-.axit-description {
+.axit-description p {
     width: 282px;
     color: rgba(255, 255, 255, 0.80);
     font-family: Raleway;
@@ -91,6 +91,7 @@
 } 
 .card-free_trial {
     width: 23.121rem;
+    height: 23.121rem;
     border-radius: 8px;
     background-color: #FFF;
     display: flex;
@@ -111,8 +112,8 @@
 .content span {
     color: #EC7979;
 }
-.card-items {
-    margin-bottom: -19px;
+.item:last-child {
+    margin-bottom: 0;
 }
 .item {
     display: flex;

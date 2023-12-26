@@ -56,7 +56,7 @@
     height: 70px;
     border-radius: 50%;
 }
-.customers-card-customer-img-img {
+.customers-card-customer-img img {
     height: 100%;
     width: 100%;
     overflow: hidden;
